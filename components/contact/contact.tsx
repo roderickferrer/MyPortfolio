@@ -15,7 +15,7 @@ export default function Contact() {
     <form
       
       onSubmit={handleSubmit}
-      className="flex flex-col md:justify-around gap-4 mt-20 mb-20"
+      className="flex flex-col md:flex-row md:justify-around gap-4 mt-20 mb-20"
     >
       <div>
         <Label htmlFor="email" className="mb-5">Email Address</Label>

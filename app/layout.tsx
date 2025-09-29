@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${freeman.className}   antialiased bg-cover bg-center bg-[url('/background-image.png')]`}
+        className={`${freeman.className} text-[.8rem]  antialiased bg-cover bg-center bg-[url('/background-image.png')]`}
       >
         {children}
       </body>

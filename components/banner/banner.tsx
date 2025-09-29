@@ -13,8 +13,8 @@ export default function Banner() {
       <div>
       <div>
       <h2 className={`${anton.className} font-black tracking-[0.7rem] uppercase flex flex-col`}>
-        <span className="text-[3.5rem]">Roderick</span>
-        <span className="text-[3.5rem]">Ferrer</span>
+        <span className="text-[2rem] md:text-[3.5rem]">Roderick</span>
+        <span className="text-[2rem] md:text-[3.5rem]">Ferrer</span>
       </h2>
       <i className="underline">Front-end Developer</i>
       </div>
