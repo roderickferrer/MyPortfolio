@@ -1,0 +1,39 @@
+import { Anton_SC } from "next/font/google";
+
+const anton = Anton_SC({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-anton",
+});
+
+import Image from "next/image";
+export default function Banner() {
+  return (
+    <div className="my-10 grid grid-cols-[2fr_1fr]">
+      <div>
+      <div>
+      <h2 className={`${anton.className} font-black tracking-[0.7rem] uppercase flex flex-col`}>
+        <span className="text-[3.5rem]">Roderick</span>
+        <span className="text-[3.5rem]">Ferrer</span>
+      </h2>
+      <i className="underline">Front-end Developer</i>
+      </div>
+      <div className="pt-5">
+        <p className="w-[80%] leading-7">
+          Hi, I'm Derek. I graduated with a degree in Computer Science and am
+          passionate about being a Web Developer. I took the time to further
+          develop my skills—not only technical skills but also soft skills. When
+          I'm not coding, I enjoy playing guitar, singing, gaming, and watching
+          anime.
+        </p>{/*  bg-[#413F3F] */}
+        </div>
+        </div>
+        <div className="rounded-2xl bg-[url('/chaos.svg')] bg-contain bg-no-repeat overflow-hidden  ">
+            <div className="">
+             <Image src={"/avatar.png"} alt="avatar" width={500} height={500} unoptimized/>
+            </div>
+        </div>
+      
+    </div>
+  );
+}
