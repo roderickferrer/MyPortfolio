@@ -28,7 +28,7 @@ export default function Banner() {
         </p>{/*  bg-[#413F3F] */}
         </div>
         </div>
-        <div className="rounded-2xl bg-[url('/chaos.svg')] bg-contain bg-no-repeat overflow-hidden  ">
+        <div className="rounded-2xl  bg-contain bg-no-repeat overflow-hidden  ">
             <div className="">
              <Image src={"/avatar.png"} alt="avatar" width={500} height={500} unoptimized/>
             </div>
