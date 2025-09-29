@@ -15,7 +15,7 @@ export default function Contact() {
     <form
       
       onSubmit={handleSubmit}
-      className="flex justify-around gap-4 mt-20 mb-20"
+      className="flex flex-col md:justify-around gap-4 mt-20 mb-20"
     >
       <div>
         <Label htmlFor="email" className="mb-5">Email Address</Label>
@@ -38,7 +38,7 @@ export default function Contact() {
             placeholder="Type your message here."
             id="message"
             name="message"
-            className="w-96 h-40"
+            className="md:w-96 h-40"
           />
           <ValidationError
             prefix="Message"
@@ -47,7 +47,7 @@ export default function Contact() {
           />
         </div>
 
-        <div className="flex flex-col items-start gap-2 mt-5 ">
+        <div className="flex flex-col items-end gap-2 mt-5 ">
           <Button
             type="submit"
             disabled={state.submitting}

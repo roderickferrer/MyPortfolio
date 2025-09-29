@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <div className="flex items-center justify-between py-7">
             <h1 className={`${anton.className} uppercase text-[3rem] font-bold`}>dk</h1>
-            <div>
+            <div className="hidden md:block">
                <Navigation />
             </div>
           

@@ -8,7 +8,7 @@ export default function projects() {
       {/* bg-[#4b4949]*/}
       <h3 className="uppercase mt-3">Coding Challenges</h3>
       <div className="grid gap-10 mt-10">
-        <div className="flex gap-5 border-2 p-5 rounded-2xl">
+        <div className="md:md:flex gap-5 border-2 p-5 rounded-2xl">
           <Image
             src={"/projects-image/advicegenerator.png"}
             alt="avatar"
@@ -37,7 +37,7 @@ export default function projects() {
             <p>Tools: React.js, TailwindCSS</p>
           </div>
         </div>
-        <div className="flex gap-5 border-2 p-5 rounded-2xl">
+        <div className="md:flex gap-5 border-2 p-5 rounded-2xl">
           <Image
             src={"/projects-image/timetracking.png"}
             alt="avatar"
@@ -68,7 +68,7 @@ export default function projects() {
             <p>Tools: react, Tailwind-css</p>
           </div>
         </div>
-        <div className="flex gap-5 border-2 p-5 rounded-2xl">
+        <div className="md:flex gap-5 border-2 p-5 rounded-2xl">
           <Image
             src={"/projects-image/form.png"}
             alt="avatar"
@@ -98,7 +98,7 @@ export default function projects() {
             </div>
           </div>
         </div>
-        <div className="flex gap-5 border-2 p-5 rounded-2xl">
+        <div className="md:flex gap-5 border-2 p-5 rounded-2xl">
           <Image
             src={"/projects-image/chart.png"}
             alt="avatar"
@@ -113,7 +113,7 @@ export default function projects() {
               &quot;A responsive bar chart that displays daily expenses using
               data from a local JSON file. This project helped me practice
               creating custom chart components and visualizing data with React
-              Chart.js and Flexbox.&quot;
+              Chart.js and md:Flexbox.&quot;
             </p>
             <div className="py-2">
               <strong>Repo: </strong>
@@ -125,7 +125,7 @@ export default function projects() {
                 Github Link
               </a>
             </div>
-            <p>Tools: Reactjs, Reactchartjs, and flexbox</p>
+            <p>Tools: Reactjs, Reactchartjs, and md:flexbox</p>
           </div>
         </div>
         <span>
@@ -135,7 +135,7 @@ export default function projects() {
       <div className="grid  gap-10 mt-10 ">
         <div>
           <h3 className="uppercase mb-10">Udemy</h3>
-          <div className="flex gap-5 border-2 p-5 rounded-2xl">
+          <div className="md:flex gap-5 border-2 p-5 rounded-2xl">
             <Image
               src={"/projects-image/face-recognition.png"}
               alt="avatar"
@@ -158,7 +158,7 @@ export default function projects() {
         </div>
         <div>
           <h3 className="uppercase mb-10">Personal Project</h3>
-          <div className="flex gap-5 border-2 p-5 rounded-2xl">
+          <div className="md:flex gap-5 border-2 p-5 rounded-2xl">
             <Image
               src={"/projects-image/portfolio.png"}
               alt="avatar"
@@ -185,7 +185,7 @@ export default function projects() {
         </div>
         <div>
           <h3 className="uppercase mb-10">hacktoberfest</h3>
-          <div className="flex gap-5 border-2 p-5 rounded-2xl">
+          <div className="md:flex gap-5 border-2 p-5 rounded-2xl">
             <Image
               src={"/projects-image/hacktoberfest.png"}
               alt="avatar"

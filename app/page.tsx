@@ -22,10 +22,13 @@ export default function Portfolio() {
   };
   return (
     <div ref={scrollAreaRef} className=" text-white">
-      <div className="w-[65%] mx-auto">
+      <div className="mx-5 md:w-[65%] md:mx-auto">
         <Header />
         <Banner />
-        <Star />
+        <div className="hidden md:block">
+          <Star />
+        </div>
+       
         <Projects />
         <Certificates />
         <Contact />

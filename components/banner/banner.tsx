@@ -9,7 +9,7 @@ const anton = Anton_SC({
 import Image from "next/image";
 export default function Banner() {
   return (
-    <div className="my-10 grid grid-cols-[2fr_1fr]">
+    <div className="my-10 grid md:grid-cols-[2fr_1fr]">
       <div>
       <div>
       <h2 className={`${anton.className} font-black tracking-[0.7rem] uppercase flex flex-col`}>

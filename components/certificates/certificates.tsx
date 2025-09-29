@@ -5,7 +5,7 @@ export default function Certificates() {
       <h2 id="certificates" className="uppercase font-black pt-5">
         Certificates
       </h2>
-      <div className="grid grid-cols-3 gap-10 mt-10 mb-10">
+      <div className="grid text-center md:grid-cols-3 gap-10 mt-10 mb-10">
         {/*    <Image
             src={"/webdev.jpg"} alt="certificates" width={400} height={400}
             />

@@ -12,7 +12,7 @@ export function ScrollButton({
       <Button
         variant="secondary"
         size="icon"
-        className="size-12 fixed bottom-7 right-10 mr-5 mb-5 cursor-pointer"
+        className="size-12 fixed bottom-7 right-5 md:right-10  md:mr-5 md:mb-5 cursor-pointer"
         onClick={(triggerScrollToTop) => trigger()}
       >
         <ChevronUpIcon />
