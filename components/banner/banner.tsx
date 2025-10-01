@@ -16,7 +16,7 @@ export default function Banner() {
         <span className="text-[2rem] md:text-[3.5rem]">Roderick</span>
         <span className="text-[2rem] md:text-[3.5rem]">Ferrer</span>
       </h2>
-      <i className="underline">Front-end Developer</i>
+      <i className="underline">Front-end Developer &#40;Intern&#41;</i>
       </div>
       <div className="pt-5">
         <p className="w-[80%] leading-7">
