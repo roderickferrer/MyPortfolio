@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div>
-      <div className="bg-[#373333]  flex  p-10 gap-20 rounded-[2rem] ">
+      <div className="bg-[#373333] flex p-10 gap-20 rounded-[2rem] ">
         <div className="flex flex-col "> 
           <a href="#" className="mb-2">
             Home
