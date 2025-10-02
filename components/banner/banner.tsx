@@ -9,7 +9,7 @@ const anton = Anton_SC({
 import Image from "next/image";
 export default function Banner() {
   return (
-    <div className="my-10 grid md:grid-cols-[2fr_1fr]">
+    <div className="text-center md:text-start my-10 grid md:grid-cols-[2fr_1fr]">
       <div>
       <div>
       <h2 className={`${anton.className} font-black tracking-[0.7rem] uppercase flex flex-col`}>
@@ -19,7 +19,7 @@ export default function Banner() {
       <i className="underline">Front-end Developer &#40;Intern&#41;</i>
       </div>
       <div className="pt-5">
-        <p className="w-[80%] leading-7">
+        <p className="w-full md:w-[80%] leading-7">
           Hi, I'm Derek. I graduated with a degree in Computer Science and am
           passionate about being a Web Developer. I took the time to further
           develop my skills—not only technical skills but also soft skills. When
