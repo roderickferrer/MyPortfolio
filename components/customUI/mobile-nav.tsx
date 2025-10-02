@@ -17,7 +17,7 @@ import {
 export function MobileNavigation() {
   return (
     <NavigationMenu viewport={false} className="bg-[#413F3F] py-2 rounded-[1rem] ">
-      <NavigationMenuList className="uppercase flex flex-col gap-3 px-2 tracking-widest">
+      <NavigationMenuList className="uppercase flex flex-col gap-4 px-3 tracking-widest">
         <NavigationMenuItem >
           <Link href="#"><House/></Link>
         </NavigationMenuItem>
