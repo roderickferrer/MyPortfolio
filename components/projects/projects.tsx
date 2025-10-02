@@ -7,8 +7,8 @@ export default function projects() {
       </h2>
       {/* bg-[#4b4949]*/}
       <h3 className="uppercase mt-3">Coding Challenges</h3>
-      <div className="grid gap-10 mt-10">
-        <div className="md:md:flex gap-5 border-2 p-5 rounded-2xl">
+      <div className="text-center md:text-start grid gap-10 mt-10">
+        <div className=" md:md:flex gap-5 border-2 p-5 rounded-2xl">
           <Image
             src={"/projects-image/advicegenerator.png"}
             alt="avatar"
@@ -132,7 +132,7 @@ export default function projects() {
         <a className="hover:underline" href="https://www.frontendmentor.io/profile/DEREKFERRER" target="_blank" rel="noopener noreferrer">See More Coding Challenges &#8594;</a>
         </span>
       </div>
-      <div className="grid  gap-10 mt-10 ">
+      <div className="grid gap-10 mt-10 text-center md:text-start">
         <div>
           <h3 className="uppercase mb-10">Udemy</h3>
           <div className="md:flex gap-5 border-2 p-5 rounded-2xl">

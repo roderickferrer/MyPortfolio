@@ -7,7 +7,7 @@ const anton = Anton_SC({
 });
 
 import  { Navigation } from "@/components/customUI/navigation";
-import { DropdownMobileMenu } from "@/components/customUI/dropdown-mobile-menu";
+import { MobileNavigation } from "@/components/customUI/mobile-nav";
 export default function Header() {
     return (
         <div className="flex items-center justify-between py-7">
@@ -19,8 +19,8 @@ export default function Header() {
             </div>
 
             {/* Mobile Navigation */}
-            <div className="block md:hidden text-end">
-                <DropdownMobileMenu/>
+            <div className="block md:hidden text-end fixed bottom-5 right-5 z-50">
+                <MobileNavigation/>
             </div>
         </div>
     )

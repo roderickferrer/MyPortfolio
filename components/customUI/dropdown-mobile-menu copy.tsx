@@ -12,20 +12,21 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 export function DropdownMobileMenu() {
+  const [open, setOpen] = React.useState(false);
   return (
-    <DropdownMenu>
+    <DropdownMenu open={open} onOpenChange={setOpen}>
   <DropdownMenuTrigger>Open</DropdownMenuTrigger>
   <DropdownMenuContent>
-    <DropdownMenuItem>
+    <DropdownMenuItem onSelect={() => setOpen(false)}>
       <Link href="#">Home</Link>
      </DropdownMenuItem>
-    <DropdownMenuItem>
+    <DropdownMenuItem onSelect={() => setOpen(false)}>
       <Link href="#projects">Projects</Link>
     </DropdownMenuItem>
-    <DropdownMenuItem>
+    <DropdownMenuItem onSelect={() => setOpen(false)}>
       <Link href="#certificates">Certificates</Link>
     </DropdownMenuItem>
-      <DropdownMenuItem>
+      <DropdownMenuItem onSelect={() => setOpen(false)}>
       <Link href="#contact">Contact</Link>
     </DropdownMenuItem>
   </DropdownMenuContent>

@@ -36,7 +36,9 @@ export default function Portfolio() {
    
       </div>
           {/*  <button className="fixed bottom-0 right-0 mr-5 cursor-pointer" onClick={triggerScrollToTop}>Scroll to Top</button> */}
+          <div className="hidden md:block">
           <ScrollButton triggerScrollToTop={triggerScrollToTop}/>
+          </div>
     </div>
   );
 }
