@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, {useState} from "react";
 import {useForm, ValidationError} from "@formspree/react";
 import {Label} from "@/components/ui/label";
 import {Input} from "@/components/ui/input";
@@ -7,6 +7,7 @@ import {Textarea} from "@/components/ui/textarea";
 import {Button} from "@/components/ui/button";
 export default function Contact() {
   const [state, handleSubmit] = useForm("xoqggqvw");
+  
 
   return (
     <div id="contact" className="my-20 pt-5">
@@ -25,7 +26,6 @@ export default function Contact() {
           name="email"
           placeholder="example@email.com"
         />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
         <Label htmlFor="name" className="my-5">Name</Label>
         <Input id="name" type="name" name="name" placeholder="Name" />
         <ValidationError prefix="Email" field="email" errors={state.errors} />

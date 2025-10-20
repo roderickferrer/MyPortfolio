@@ -146,7 +146,7 @@ export default function projects() {
             />
             <div>
               <h3>Face Recognition</h3>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://my-app1-q8x8.onrender.com/" target="_blank" rel="noopener noreferrer">
                 Repo
               </a>
               <p>
@@ -176,7 +176,7 @@ export default function projects() {
                 strengthened through coding challenges, online courses, and
                 contributing to open-source projects.
               </p>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://dk06-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
                 Repo
               </a>
               <p>Tools: React.js, TailwindCSS</p>

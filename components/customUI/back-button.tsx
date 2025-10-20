@@ -14,24 +14,12 @@ import {
 } from "@/components/ui/navigation-menu"
 
 
-export function Navigation() {
+export function BackButton() {
   return (
     <NavigationMenu viewport={false} className="bg-[#413F3F] p-5 rounded-[1rem] ">
       <NavigationMenuList className="uppercase flex gap-7 px-2 tracking-widest">
-        {/* <NavigationMenuItem >
-          <Link href="#">Home</Link>
-        </NavigationMenuItem> */}
-        <NavigationMenuItem>
-          <Link href="#projects">Projects</Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-           <Link href="#certificates">Certificates</Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-           <Link href="/resource">Resources</Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-           <Link href="#contact">Contact</Link>
+        <NavigationMenuItem >
+          <Link href="/">Back</Link>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

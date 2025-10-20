@@ -13,8 +13,8 @@ export default function Banner() {
       <div>
       <div>
       <h2 className={`${anton.className} font-black tracking-[0.7rem] uppercase flex flex-col`}>
-        <span className="text-[2rem] md:text-[3.5rem]">Roderick</span>
-        <span className="text-[2rem] md:text-[3.5rem]">Ferrer</span>
+        <span className="text-[2rem] md:text-[4rem]">Roderick</span>
+        <span className="text-[2rem] md:text-[4rem]">Ferrer</span>
       </h2>
       <i className="underline">Front-end Developer &#40;Intern&#41;</i>
       </div>
@@ -28,7 +28,7 @@ export default function Banner() {
         </p>{/*  bg-[#413F3F] */}
         </div>
         </div>
-        <div className="rounded-2xl  bg-contain bg-no-repeat overflow-hidden  ">
+        <div className="rounded-2xl  bg-contain bg-no-repeat overflow-hidden flex justify-center items-center">
             <div className="">
              <Image src={"/avatar.png"} alt="avatar" width={500} height={500} unoptimized/>
             </div>
