@@ -25,7 +25,7 @@ export default function Banner() {
           develop my skills—not only technical skills but also soft skills. When
           I'm not coding, I enjoy playing guitar, singing, gaming, and watching
           anime.
-        </p>{/*  bg-[#413F3F] */}
+        </p>
         </div>
         </div>
         <div className="rounded-2xl  bg-contain bg-no-repeat overflow-hidden flex justify-center items-center">

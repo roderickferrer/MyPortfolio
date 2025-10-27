@@ -5,7 +5,6 @@ export default function projects() {
       <h2 id="projects" className="uppercase font-black pt-5">
         Projects
       </h2>
-      {/* bg-[#4b4949]*/}
       <h3 className="uppercase mt-3">Coding Challenges</h3>
       <div className="text-center md:text-start grid gap-10 mt-10">
         <div className=" md:md:flex gap-5 border-2 p-5 rounded-2xl">
@@ -129,7 +128,14 @@ export default function projects() {
           </div>
         </div>
         <span>
-        <a className="hover:underline" href="https://www.frontendmentor.io/profile/DEREKFERRER" target="_blank" rel="noopener noreferrer">See More Coding Challenges &#8594;</a>
+          <a
+            className="hover:underline"
+            href="https://www.frontendmentor.io/profile/DEREKFERRER"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See More Coding Challenges &#8594;
+          </a>
         </span>
       </div>
       <div className="grid gap-10 mt-10 text-center md:text-start">
@@ -146,7 +152,11 @@ export default function projects() {
             />
             <div>
               <h3>Face Recognition</h3>
-              <a href="https://my-app1-q8x8.onrender.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://my-app1-q8x8.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
               <p>
@@ -176,7 +186,11 @@ export default function projects() {
                 strengthened through coding challenges, online courses, and
                 contributing to open-source projects.
               </p>
-              <a href="https://dk06-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://dk06-portfolio.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
               <p>Tools: React.js, TailwindCSS</p>

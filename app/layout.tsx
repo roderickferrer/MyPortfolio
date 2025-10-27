@@ -1,21 +1,19 @@
-import type { Metadata } from "next";
-import { Freeman } from "next/font/google"
+import type {Metadata} from "next";
+import {Freeman} from "next/font/google";
 import "./globals.css";
 
 const freeman = Freeman({
-   weight: "400",
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-freeman",
-})
-
-
+  variable: "--font-freeman"
+});
 
 export const metadata: Metadata = {
-  title: "DK",
+  title: "DK"
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {

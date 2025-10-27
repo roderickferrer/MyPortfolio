@@ -6,7 +6,6 @@ const anton = Anton_SC({
   variable: "--font-anton",
 });
 import Resources from "@/components/resources/resources";
-import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import { BackButton } from "@/components/customUI/back-button";
 export default function Resource() {
