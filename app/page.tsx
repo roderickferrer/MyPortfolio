@@ -1,7 +1,6 @@
 "use client";
 import Header from "@/components/header/header";
 import Banner from "@/components/banner/banner";
-import Star from "@/components/star/star";
 import Projects from "@/components/projects/projects";
 import Certificates from "@/components/certificates/certificates";
 import Contact from "@/components/contact/contact";
@@ -24,10 +23,6 @@ export default function Portfolio() {
       <div className="mx-5 md:w-[65%] md:mx-auto">
         <Header />
         <Banner />
-        <div className="hidden md:block">
-          <Star />
-        </div>
-
         <Projects />
         <Certificates />
         <Contact />
